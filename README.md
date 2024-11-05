@@ -5,6 +5,7 @@ This repo contains a bootstrap build of initial binaries. The build uses builder
 ### Run with Docker
 
 ```console
+$ git submodule update --init --recursive
 $ docker build -t bootstrap-init:latest .
 $ docker run bootstrap-init:latest
 ```
