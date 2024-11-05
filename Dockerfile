@@ -10,5 +10,5 @@ COPY ./external /external/
 RUN mkdir /repo
 VOLUME /repo
 
-CMD sh ./build-script.sh
+ENTRYPOINT ["sh", "./build-script.sh"]
 
